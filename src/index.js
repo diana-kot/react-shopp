@@ -1,7 +1,12 @@
 import React from "react";
 // import ReactDOM from 'react-dom';
-import { createRoot } from "react-dom/client";
+
+
 import "./index.scss";
+import "macro-css"; 
+
+import { createRoot } from "react-dom/client";
+
 import App from "./App.js";
 import reportWebVitals from "./reportWebVitals";
 const root = createRoot(document.getElementById("root"));
