@@ -6,7 +6,7 @@ body {
 }
 
 * {
-  font-family: 'Inter', system-ui;
+  font-family: "Inter", system-ui;
 }
 
 .wrapper {
@@ -141,6 +141,11 @@ header {
 
   .greenButton {
     position: relative;
+
+    &:disabled {
+      background-color: #bebebe;
+      cursor: default;
+    }
 
     &:hover {
       img {
