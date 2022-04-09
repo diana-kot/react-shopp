@@ -1,6 +1,7 @@
 {
   "name": "react-filter",
   "version": "0.1.0",
+  "homepage": "https://diana-kot.github.io/react-shopp",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
@@ -18,9 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "npm run build && npm run build-gh-pages",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-gh-pages": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
