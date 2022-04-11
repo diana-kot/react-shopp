@@ -8,7 +8,7 @@ npm run start
 mpm run deploy
 ```
 
-## Стэк технологий
+## Стек технологий
 
 * mockAPI
 * Axios
