@@ -5,7 +5,7 @@
 ## Скрипты
 ```bash
 npm run start
-mpm run deploy
+npm run deploy
 ```
 
 ## Стек технологий
